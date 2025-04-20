@@ -3,8 +3,9 @@ from twilio.twiml.messaging_response import MessagingResponse
 from dotenv import load_dotenv
 import os
 import logging
-from test_response import get_response
-
+import asyncio
+from LLMS.gemini_client import get_gemini_response
+from Processors.message_processor import preprocess_message, postprocess_response
 # Load environment variables
 load_dotenv()
 
@@ -29,11 +30,16 @@ def webhook():
     incoming_msg = request.values.get('Body', '').strip()
     sender = request.values.get('From', '')
     
+    # Extract the phone number from sender (format: 'whatsapp:+1234567890')
+    user_id = sender.split(':')[1] if ':' in sender else sender
+    
     # Log incoming message
     logger.info(f"Received message from {sender}: {incoming_msg}")
     
-    # Get response for the message
-    response_text = get_response(incoming_msg)
+    # Get response from Gemini (run async function in sync context)
+    processed_message = preprocess_message(incoming_msg, user_id)
+    raw_response = asyncio.run(get_gemini_response(processed_message, user_id))
+    response_text = postprocess_response(raw_response)
     
     # Create Twilio response
     resp = MessagingResponse()
