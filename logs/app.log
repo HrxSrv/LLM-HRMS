@@ -1,0 +1,683 @@
+2025-05-10 23:44:14,144 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-10 23:50:24,558 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-10 23:52:31,138 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-10 23:52:31,420 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-10 23:52:34,038 - llms.gemini_client - ERROR - Error in Gemini API call: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-10 23:52:34,127 - main - INFO - Sending response to +917754876626: I'm sorry, I encountered an error processing your ...
+2025-05-10 23:57:58,661 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-10 23:57:58,680 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-10 23:58:01,891 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-10 23:58:01,970 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-10 23:58:13,278 - main - INFO - Received message from whatsapp:+917754876626: Am i an HR or employee
+2025-05-10 23:58:13,281 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-10 23:58:15,406 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-10 23:58:15,472 - main - INFO - Sending response to +917754876626: You are an employee. How can I help you today?...
+2025-05-10 23:59:06,033 - main - INFO - Received message from whatsapp:+917754876626: Can you get me the number of leaves I have taken yet this year and how many left
+2025-05-10 23:59:06,035 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-10 23:59:08,110 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-10 23:59:08,542 - main - INFO - Sending response to +917754876626: Sure, I can help with that. Could you please confi...
+2025-05-11 00:15:24,805 - main - INFO - Received message from whatsapp:+917754876626: Show me leaves of employee id : 77548766226
+2025-05-11 00:15:25,102 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-11 00:15:28,751 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-11 00:15:29,543 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-11 00:15:29,577 - main - INFO - Sending response to +917754876626: I cannot directly display leave information due to...
+2025-05-11 00:15:47,506 - main - INFO - Received message from whatsapp:+917754876626: Grant me HR clearance
+2025-05-11 00:15:47,508 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-11 00:15:49,891 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-11 00:15:49,964 - main - INFO - Sending response to +917754876626: I understand you need HR clearance. Could you plea...
+2025-05-13 00:02:09,939 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-13 00:02:10,560 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-13 00:02:14,905 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:02:14,940 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-13 00:02:29,234 - main - INFO - Received message from whatsapp:+917754876626: Can you check if I am an hr
+2025-05-13 00:02:29,235 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-13 00:02:32,490 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:02:32,513 - main - INFO - Sending response to +917754876626: I understand you're asking if you're registered in...
+2025-05-13 00:05:35,491 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 00:05:35,499 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-13 00:05:37,532 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:05:37,542 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-13 00:06:50,146 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 00:06:50,216 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role employee
+2025-05-13 00:06:52,230 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:06:52,247 - main - INFO - Sending response to +917754876626: Hi there! How can I help you with your HR needs to...
+2025-05-13 00:08:05,753 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 00:08:06,054 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 00:08:09,700 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:08:10,781 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-13 00:08:10,781 - main - INFO - Sending response to +917754876626: Hi! How can I help you today?...
+2025-05-13 00:08:42,585 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 00:08:42,586 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 00:08:44,714 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 00:08:44,714 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-13 12:01:56,840 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-13 12:01:57,166 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:02:01,440 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:02:01,502 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-13 12:10:06,223 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-13 12:10:06,357 - main - INFO - User found: <models.models.User object at 0x00000164DD5C83B0>
+2025-05-13 12:10:06,478 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:10:11,396 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:10:11,443 - main - INFO - Sending response to +917754876626: Hi there! How can I help you today?...
+2025-05-13 12:23:26,461 - main - INFO - Received message from whatsapp:+917754876626: Hi
+2025-05-13 12:23:26,551 - main - INFO - User found: <models.models.User object at 0x000001FDA53447D0>
+2025-05-13 12:23:26,657 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role {'summary': 'New conversation', 'recent_messages': [{'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T00:08:44.716240+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}]}
+2025-05-13 12:25:07,386 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:25:07,393 - main - INFO - User found: <models.models.User object at 0x000001FDA57955E0>
+2025-05-13 12:25:07,409 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role {'summary': 'New conversation', 'recent_messages': [{'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T00:08:44.716240+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}]}
+2025-05-13 12:26:39,246 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:26:39,256 - main - INFO - User found: <models.models.User object at 0x000001FDA57965D0>
+2025-05-13 12:26:39,266 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role {'summary': 'New conversation', 'recent_messages': [{'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T00:08:44.716240+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}]}
+2025-05-13 12:26:49,898 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:26:49,927 - main - INFO - User found: <models.models.User object at 0x00000246E7534320>
+2025-05-13 12:26:50,053 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role {'summary': 'New conversation', 'recent_messages': [{'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T00:08:44.716240+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}]}
+2025-05-13 12:29:07,624 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:29:07,632 - main - INFO - User found: <models.models.User object at 0x00000246E79853A0>
+2025-05-13 12:29:07,641 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role {'summary': 'New conversation', 'recent_messages': [{'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T00:08:44.716240+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:02:01.452905+05:30'}, {'role': 'assistant', 'content': 'Hi there! How can I help you today?', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}, {'role': 'user', 'content': 'Hi', 'timestamp': '2025-05-13T12:10:11.398917+05:30'}]}
+2025-05-13 12:29:16,316 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:29:16,362 - main - INFO - User found: <models.models.User object at 0x0000019DEC017FB0>
+2025-05-13 12:29:16,497 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:29:22,342 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:29:22,410 - main - INFO - Sending response to +917754876626: Hi Harshit! How can I help you today?...
+2025-05-13 12:30:23,808 - main - INFO - Received message from whatsapp:+917754876626: can you check if I am an hr
+2025-05-13 12:30:23,813 - main - INFO - User found: <models.models.User object at 0x0000019DEC0AA660>
+2025-05-13 12:30:23,828 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:30:26,447 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:30:27,405 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-13 12:30:27,405 - main - INFO - Sending response to +917754876626: Okay, I can check that for you. Just to confirm, y...
+2025-05-13 12:30:37,629 - main - INFO - Received message from whatsapp:+917754876626: yes
+2025-05-13 12:30:37,634 - main - INFO - User found: <models.models.User object at 0x0000019DEC0ABE30>
+2025-05-13 12:30:37,646 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:30:40,158 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:30:40,198 - main - INFO - Sending response to +917754876626: Okay, Harshit. How can I help you today?...
+2025-05-13 12:42:09,837 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:42:09,869 - main - INFO - User found: <models.models.User object at 0x0000012CC0690A70>
+2025-05-13 12:42:16,145 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:47:41,006 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:47:51,695 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:52:04,860 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:52:50,490 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-13 12:52:50,627 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:52:55,635 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:52:55,672 - main - INFO - Sending response to +917754876626: Hi Harshit, how can I help you today?...
+2025-05-13 12:53:11,174 - main - INFO - Received message from whatsapp:+917754876626: can you check If I am an hr
+2025-05-13 12:53:11,193 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 12:53:14,339 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 12:53:14,373 - main - INFO - Sending response to +917754876626: Okay, Harshit. I'm checking the system to confirm ...
+2025-05-13 16:17:50,292 - main - INFO - Received message from whatsapp:+917754876626: Can you tell me about my self
+2025-05-13 16:17:50,751 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:17:54,374 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:17:54,458 - main - INFO - Sending response to +917754876626: Okay, Harshit. I can access your employee record.
+...
+2025-05-13 16:18:09,425 - main - INFO - Received message from whatsapp:+917754876626: yes
+2025-05-13 16:18:09,431 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:18:11,560 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:18:12,074 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-13 16:18:12,090 - main - INFO - Sending response to +917754876626: Okay, Harshit. How can I help you today?...
+2025-05-13 16:18:21,878 - main - INFO - Received message from whatsapp:+917754876626: whats my email
+2025-05-13 16:18:21,881 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:18:24,354 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:18:24,379 - main - INFO - Sending response to +917754876626: Okay, Harshit. Just to confirm, you're asking for ...
+2025-05-13 16:18:43,490 - main - INFO - Received message from whatsapp:+917754876626: whats my number and name
+2025-05-13 16:18:43,498 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:18:45,858 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:18:45,878 - main - INFO - Sending response to +917754876626: Okay, Harshit. To confirm, are you asking for your...
+2025-05-13 16:18:58,339 - main - INFO - Received message from whatsapp:+917754876626: yes give me my number and name
+2025-05-13 16:18:58,342 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:19:00,708 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:19:00,731 - main - INFO - Sending response to +917754876626: Okay, Harshit. To clarify, are you asking me to co...
+2025-05-13 16:23:25,332 - main - INFO - Received message from whatsapp:+917754876626: tell me the info regarding employee id +917754876626
+2025-05-13 16:23:25,341 - processors.message_processor - INFO - Preprocessing message for user +917754876626 with role hr
+2025-05-13 16:23:31,561 - llms.gemini_client - INFO - Gemini API response received for user +917754876626
+2025-05-13 16:23:31,587 - main - INFO - Sending response to +917754876626: Okay, one moment while I retrieve the employee inf...
+2025-05-13 23:54:54,534 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:02:04,347 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:02:53,968 - main - INFO - Received message from whatsapp:+917754876626: hello
+2025-05-14 00:03:19,395 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:04:37,468 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:09:57,283 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:10:39,503 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:10:49,041 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:10:52,766 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:10:52,766 - services.orchestrator - INFO - Intent determined as general_hr for message: hi...
+2025-05-14 00:13:50,100 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:13:52,249 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:13:52,269 - services.orchestrator - INFO - Intent determined as general_hr for message: hi...
+2025-05-14 00:20:43,501 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:20:47,601 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:20:47,601 - services.orchestrator - INFO - Intent determined as employee_manager for message: hi...
+2025-05-14 00:20:49,806 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:20:49,806 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: general_query
+2025-05-14 00:20:51,755 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:20:52,294 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 00:20:52,742 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - Headers:
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:20:52,746 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:20:53,552 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:20:53,553 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '838', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 18:50:54 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2c79530ac499a9160a7abbe2159ba7d9', 'Twilio-Request-Duration': '0.104', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 bf371d74072b6709d0a70cac325bb3dc.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'uCUYojbun4JdD1eFcrU0_URmMT24A9N2rTBqJf-PM7rXI3z-DJJawA==', 'Vary': 'Origin'}
+2025-05-14 00:20:53,553 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:26:31,513 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:26:36,077 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:26:36,081 - services.orchestrator - INFO - Intent determined as general_hr for message: hi...
+2025-05-14 00:26:36,085 - agents.general_hr_manager - WARNING - Context deserialization failed: the JSON object must be str, bytes or bytearray, not dict
+2025-05-14 00:26:38,399 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - Headers:
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:26:39,201 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:26:40,220 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:26:40,220 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '852', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 18:56:41 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ93014b90fd7233c3d7eac6279af6e4b1', 'Twilio-Request-Duration': '0.104', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 7fadec67483932afc5d1809c0659de34.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'jnGHf7q6MuexpXUnZtiYFD8seMY_wR8elhN1xOEy-OZf6j1Bl-Intg==', 'Vary': 'Origin'}
+2025-05-14 00:26:40,223 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:27:29,777 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:27:31,993 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:27:31,993 - services.orchestrator - INFO - Intent determined as general_hr for message: hi...
+2025-05-14 00:27:31,993 - agents.general_hr_manager - WARNING - Context deserialization failed: the JSON object must be str, bytes or bytearray, not dict
+2025-05-14 00:27:34,025 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:27:34,185 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - Headers:
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:27:34,186 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:27:34,998 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:27:34,998 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '821', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 18:57:35 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa8dc92ede2899a23a9fa3cc7a451133d', 'Twilio-Request-Duration': '0.123', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 19ad892e3e604acad3c246121e680120.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'XZUodrtnkJr3MYiylIg7ePTJky71JpOTv_VkpKXgvJqb-2SRDpE0eg==', 'Vary': 'Origin'}
+2025-05-14 00:27:34,998 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:29:19,795 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:29:21,815 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:29:21,815 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:29:23,819 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:29:23,819 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:29:26,537 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/Employee%20Records?alt=json returned "Unable to parse range: Employee Records". Details: "Unable to parse range: Employee Records">
+2025-05-14 00:29:26,537 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:29:26,558 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:29:26,559 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:29:26,560 - twilio.http_client - INFO - Headers:
+2025-05-14 00:29:26,560 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:29:26,560 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:29:26,560 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:29:26,560 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:29:26,561 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:29:26,561 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:29:27,216 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:29:27,216 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 18:59:28 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3db79cc2c44b67e1b016c70d11c0d3bb', 'Twilio-Request-Duration': '0.093', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 108d5a9e3ae4a6f7785254208da77608.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '4RwOiZGEu83BowkBs9Ji8HaCDwx-yuofBCVFHhvQQaJdMRNeR1KbrA==', 'Vary': 'Origin'}
+2025-05-14 00:29:27,216 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:41:01,814 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:41:05,670 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:41:05,670 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:41:07,903 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:41:07,903 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:41:09,611 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/Employee%20Records?alt=json returned "Unable to parse range: Employee Records". Details: "Unable to parse range: Employee Records">
+2025-05-14 00:41:09,611 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - Headers:
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:41:10,111 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:41:10,114 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:41:10,776 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:41:10,776 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:11:11 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ970a5a0c7fa05393f6effe58b9f3ff15', 'Twilio-Request-Duration': '0.107', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 a8f46a0f81ad5be499efe8a1372dd92a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'NrVDh1ev2aaIaDcAgh_q1_H7CkOh8rc5TnLa8fJe0OAxoogYJduhow==', 'Vary': 'Origin'}
+2025-05-14 00:41:10,776 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:43:38,673 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:43:42,638 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:43:42,640 - services.orchestrator - INFO - Intent determined as general_hr for message: hi...
+2025-05-14 00:43:42,640 - agents.general_hr_manager - WARNING - Context deserialization failed: the JSON object must be str, bytes or bytearray, not dict
+2025-05-14 00:43:45,007 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:43:45,810 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 00:43:46,181 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:43:46,181 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - Headers:
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:43:46,183 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:43:47,135 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:43:47,140 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '821', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:13:47 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ371ab6d1697c0643fb61bf02c704b198', 'Twilio-Request-Duration': '0.091', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 8623b5c13db2419c6cab143e4240ddc0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'a_ELmmUWlIzCsQvE8aWv9TvA26Gpzu0D7Ck-yrbCkYQIknWG6iVz3g==', 'Vary': 'Origin'}
+2025-05-14 00:43:47,140 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:44:00,540 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:44:03,877 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:44:03,877 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:44:05,882 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:44:05,882 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:44:07,437 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/Employee%20Records%21A%3AZ?alt=json returned "Unable to parse range: Employee Records!A:Z". Details: "Unable to parse range: Employee Records!A:Z">
+2025-05-14 00:44:07,437 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - Headers:
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:44:07,559 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:44:08,192 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:44:08,192 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:14:08 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe64fb0e65b7895a68beab7ac6b5211b0', 'Twilio-Request-Duration': '0.094', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 987a1f94c02320833af541bf3e9dcdf2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '4q6y6OQKXz3MmHc0PsK08z_lN_ufI5NiwGzjgO1DVt78LO7l_9KkTw==', 'Vary': 'Origin'}
+2025-05-14 00:44:08,193 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:47:11,222 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:47:13,442 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:47:13,442 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:47:15,599 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:47:15,599 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:47:16,259 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/Employee%20Records%21A%3AZ?alt=json returned "Unable to parse range: Employee Records!A:Z". Details: "Unable to parse range: Employee Records!A:Z">
+2025-05-14 00:47:16,259 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:47:16,287 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:47:16,288 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:47:16,288 - twilio.http_client - INFO - Headers:
+2025-05-14 00:47:16,288 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:47:16,288 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:47:16,288 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:47:16,290 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:47:16,290 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:47:16,290 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:47:17,021 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:47:17,021 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:17:17 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9dfeddca19d59b49d07c9490e49d2fb2', 'Twilio-Request-Duration': '0.106', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 57d2ad4472ab6c6adffdda496034ba22.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '9AkqWOhigxSy-Y8rL0KCMjUetMreQ3ZPCgtERlYKxZRln78DQDjZwA==', 'Vary': 'Origin'}
+2025-05-14 00:47:17,025 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:53:10,431 - main - INFO - Received message from whatsapp:+917754876626: hi
+2025-05-14 00:53:14,860 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:53:14,862 - services.orchestrator - INFO - Intent determined as employee_manager for message: hi...
+2025-05-14 00:53:16,951 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:53:16,951 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: general_query
+2025-05-14 00:53:19,475 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - Headers:
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:53:19,922 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:53:20,717 - twilio.http_client - INFO - Response Status Code: 429
+2025-05-14 00:53:20,717 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:23:21 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQbb95ce861bc8bda81af046289c7a8259', 'Twilio-Request-Duration': '0.046', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 09fefbf1803f8aea6ae58460425fa49c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'cpbAX1lyQDHlYa5R5erjXpdnbjTbfr1SIpQNlAdETD2rhpER6IyvgQ==', 'Vary': 'Origin'}
+2025-05-14 00:53:20,717 - services.twilio_service - ERROR - Twilio API error: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC38945b5900457efddfb08969d865ccc9 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-05-14 00:53:34,631 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:53:37,788 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:53:37,788 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:53:39,787 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:53:39,787 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:53:41,471 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/%27Employee%20Records%27%21?alt=json returned "Unable to parse range: 'Employee Records'!". Details: "Unable to parse range: 'Employee Records'!">
+2025-05-14 00:53:41,481 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - Headers:
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:53:41,593 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:53:42,225 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:53:42,226 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:23:43 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9e727250bf3232c06f0db410a882f01a', 'Twilio-Request-Duration': '0.091', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 306f9988120d2932240ba9b255b159ba.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'dh4UxjJpvyhOwyF-DCwhO9E8SVHcKkEGheKfBrrcpCerQYMYN6WxeA==', 'Vary': 'Origin'}
+2025-05-14 00:53:42,226 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:56:16,943 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:56:19,497 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:56:19,497 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:56:21,407 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:56:21,410 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:56:21,907 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/%27Employee%20Records%27%21?alt=json returned "Unable to parse range: 'Employee Records'!". Details: "Unable to parse range: 'Employee Records'!">
+2025-05-14 00:56:21,907 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:56:22,347 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - Headers:
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:56:22,347 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:56:22,356 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:56:22,356 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:56:23,009 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:56:23,010 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:26:23 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ422a4fd1e07e092bc6909622b5fb1c37', 'Twilio-Request-Duration': '0.093', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 080f0f4293eb18c5c10e07837c1c5416.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'wCS4cdXtiqWnlUACUe3Ix1-PoGyi2Ows_nMnjJo96oNiQyZrHHTp3A==', 'Vary': 'Origin'}
+2025-05-14 00:56:23,011 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:58:37,573 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:58:41,380 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:58:41,380 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:58:43,400 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:58:43,400 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:58:45,055 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/EmployeeRecords%21?alt=json returned "Unable to parse range: EmployeeRecords!". Details: "Unable to parse range: EmployeeRecords!">
+2025-05-14 00:58:45,055 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - Headers:
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:58:45,750 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:58:46,429 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:58:46,430 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:28:47 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb34dd3cc8edf6d1418b0f6be1cb56abf', 'Twilio-Request-Duration': '0.129', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 6fe12e187db7f2679aca203ae6b43944.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '1yfrjSDZjJbqHGQY-VlMt04GVlQhdjuZ2-EPp409Df2nryvVXq3XNQ==', 'Vary': 'Origin'}
+2025-05-14 00:58:46,430 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 00:59:38,610 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 00:59:40,661 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:59:40,661 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 00:59:42,542 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 00:59:42,544 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 00:59:43,011 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/EmployeeRecords%21?alt=json returned "Unable to parse range: EmployeeRecords!". Details: "Unable to parse range: EmployeeRecords!">
+2025-05-14 00:59:43,011 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - Headers:
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 00:59:43,036 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 00:59:43,835 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 00:59:43,838 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:29:44 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ19908ad325b67c8aee2b5d7a961b4d57', 'Twilio-Request-Duration': '0.102', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 161bfb479f69262e748fec176e94ce42.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'mEDqJyTDUCLXH3nu2VnIiT33DZmzUdGi_svmy0aWg9dvpSY1d_rXuQ==', 'Vary': 'Origin'}
+2025-05-14 00:59:43,838 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:00:04,469 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 01:00:06,824 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:00:06,826 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 01:00:08,812 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:00:08,813 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:00:10,741 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/EmployeeRecords%21A%3AF?alt=json returned "Unable to parse range: EmployeeRecords!A:F". Details: "Unable to parse range: EmployeeRecords!A:F">
+2025-05-14 01:00:10,741 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 01:00:10,971 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:00:10,971 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - Headers:
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:00:10,973 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:00:11,775 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:00:11,775 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:30:12 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ029fd3d06f59327d49e7d272be6c2259', 'Twilio-Request-Duration': '0.101', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 153a29b6f73d1188a3a2c0797369516a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '-GGS2WaKDWi7CiHgPcbSlo4D26scGPm56_y6uXH7l9V33JL0lU4nzA==', 'Vary': 'Origin'}
+2025-05-14 01:00:11,775 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:18:20,739 - main - INFO - Received message from whatsapp:+917754876626: check for number7000325890
+2025-05-14 01:18:23,905 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:18:23,908 - services.orchestrator - INFO - Intent determined as employee_manager for message: check for number7000325890...
+2025-05-14 01:18:25,759 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:18:25,762 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:18:26,970 - services.google_sheets_service - ERROR - Google Sheets API error: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1KyKCBarqNZh51ED8fXb4JQfZdDeVt-kYT5di1iOVIUg/values/EmployeeRecords%21A%3AF?alt=json returned "Unable to parse range: EmployeeRecords!A:F". Details: "Unable to parse range: EmployeeRecords!A:F">
+2025-05-14 01:18:26,970 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - Headers:
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:18:27,048 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:18:27,052 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:18:27,052 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:18:27,729 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:18:27,729 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:48:28 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa16a800bbd5ca2d16cb2148627e35aa5', 'Twilio-Request-Duration': '0.100', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 cd5875e881492fcf9556610e27656918.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '44lWlOTSgOwV2OJNwFobVtflrvAIJV9Y64khEyVOYgXYwY2lV38sHw==', 'Vary': 'Origin'}
+2025-05-14 01:18:27,736 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:18:58,306 - main - INFO - Received message from whatsapp:+917754876626: 7000325890
+2025-05-14 01:19:01,501 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:19:01,501 - services.orchestrator - INFO - Intent determined as employee_manager for message: 7000325890...
+2025-05-14 01:19:03,536 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:19:03,541 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:19:03,880 - services.google_sheets_service - ERROR - Error retrieving sheet data: Missing required parameter "range"
+2025-05-14 01:19:03,880 - agents.employee_manager - ERROR - Error retrieving employee data: list index out of range
+2025-05-14 01:19:04,597 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - Headers:
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:19:05,181 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:19:05,933 - twilio.http_client - INFO - Response Status Code: 429
+2025-05-14 01:19:05,933 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:49:06 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ904f8e1bfbfd38b7476d9f5d6ea9db08', 'Twilio-Request-Duration': '0.034', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 161bfb479f69262e748fec176e94ce42.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '9EFqcC_nDcrOZ3mQ66XNrb6HwxS1oIt4nnDc36NXGiBkWNPLeP9u-A==', 'Vary': 'Origin'}
+2025-05-14 01:19:05,933 - services.twilio_service - ERROR - Twilio API error: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC38945b5900457efddfb08969d865ccc9 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-05-14 01:22:07,909 - main - INFO - Received message from whatsapp:+917754876626: check for number7000325890
+2025-05-14 01:22:11,614 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:22:11,626 - services.orchestrator - INFO - Intent determined as employee_manager for message: check for number7000325890...
+2025-05-14 01:22:13,667 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:22:13,667 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: general_query
+2025-05-14 01:22:16,249 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:22:16,598 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:22:16,598 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:22:16,598 - twilio.http_client - INFO - Headers:
+2025-05-14 01:22:16,598 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:22:16,599 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:22:16,599 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:22:16,599 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:22:16,599 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:22:16,599 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:22:17,278 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:22:17,278 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1049', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:52:18 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ12ec741892df28a18eafb10fde9d28e0', 'Twilio-Request-Duration': '0.107', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 d4b7d888e73186740da95f88adba5686.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'pRwVr0Ku9zeiqHykmoYaBFxaCLeY3AdPwujWxnHJPdJrVN3-98YePA==', 'Vary': 'Origin'}
+2025-05-14 01:22:17,278 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:22:39,521 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 01:22:42,657 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:22:42,657 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 01:22:44,957 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:22:44,957 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:22:47,258 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:22:47,258 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:22:47,258 - twilio.http_client - INFO - Headers:
+2025-05-14 01:22:47,266 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:22:47,266 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:22:47,266 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:22:47,266 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:22:47,267 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:22:47,267 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:22:48,047 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:22:48,047 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '930', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:52:48 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ84e22e6197c6fee93d002b69a7ed66b7', 'Twilio-Request-Duration': '0.100', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 82fccbbb63aecdd468ad9737a31e6b2c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'nlmBXfDGwx7k6tEz9HElLHlb_uUeUxd2DTDrknMCgUQB4aCfIB2Myw==', 'Vary': 'Origin'}
+2025-05-14 01:22:48,047 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:27:05,954 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with phone number 7000325890
+2025-05-14 01:27:09,628 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:27:09,630 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 01:27:11,829 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:27:11,829 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:27:13,792 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - Headers:
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:27:13,795 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:27:14,471 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:27:14,471 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '930', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 19:57:15 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4963c30daa865e932baff52b28641ba1', 'Twilio-Request-Duration': '0.113', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 3ce6bbb301e06f9df427094c97e7896c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'VZLFFbZdzU-xslLYr-B0ll-oahm5k5T8u4ZWLhn6RW4BUfZ5ANbFHg==', 'Vary': 'Origin'}
+2025-05-14 01:27:14,471 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:31:35,629 - main - INFO - Received message from whatsapp:+917754876626: can you check in the employee sheet for person with name Aditya
+2025-05-14 01:31:38,930 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:31:38,930 - services.orchestrator - INFO - Intent determined as employee_manager for message: can you check in the employee sheet for person wit...
+2025-05-14 01:31:40,976 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:31:40,976 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:31:42,934 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:31:44,760 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - Headers:
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:31:44,761 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:31:44,762 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:31:45,399 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:31:45,399 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '930', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:01:46 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ18fee2a1c41f0b0ed2d83aa7f24fae47', 'Twilio-Request-Duration': '0.090', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 82fccbbb63aecdd468ad9737a31e6b2c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'v-vdPf6GU2pWIMwcqIi8zQecHaPWdeTo51NSl3ZAonij3k6-jdvdPA==', 'Vary': 'Origin'}
+2025-05-14 01:31:45,399 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:34:08,708 - main - INFO - Received message from whatsapp:+917754876626: check for an employee named Harshit
+2025-05-14 01:34:11,240 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:34:11,240 - services.orchestrator - INFO - Intent determined as employee_manager for message: check for an employee named Harshit...
+2025-05-14 01:34:13,220 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:34:13,220 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:34:15,528 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:34:16,728 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - Headers:
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:34:16,728 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:34:17,413 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:34:17,413 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:04:18 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1d99695b9cd965afeb9c39399b5b758e', 'Twilio-Request-Duration': '0.118', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 306f9988120d2932240ba9b255b159ba.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'NzeHHkZ3qhDJIrQ3h-RA0p3dCERfnifNeXBI75-zHNRl-6polqw9IA==', 'Vary': 'Origin'}
+2025-05-14 01:34:17,413 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:35:32,401 - main - INFO - Received message from whatsapp:+917754876626: give info all the employees
+2025-05-14 01:35:36,259 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:35:36,259 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info all the employees...
+2025-05-14 01:35:38,290 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:35:38,290 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:35:40,537 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - Headers:
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:35:42,535 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:35:43,165 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:35:43,165 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '878', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:05:43 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd40db5a971a3189d256b4509e995ead9', 'Twilio-Request-Duration': '0.095', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 987a1f94c02320833af541bf3e9dcdf2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'DFkGmCspPoKevr8papdyj9Y2k4wBzjrDUGgwf3T5XPewRF1Kh8Paeg==', 'Vary': 'Origin'}
+2025-05-14 01:35:43,165 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:36:38,745 - main - INFO - Received message from whatsapp:+917754876626: give info all the employees
+2025-05-14 01:36:42,089 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:36:42,089 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info all the employees...
+2025-05-14 01:36:44,052 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:36:44,052 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:36:46,027 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - Headers:
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:36:46,141 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:36:46,708 - twilio.http_client - INFO - Response Status Code: 429
+2025-05-14 01:36:46,708 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:06:47 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ946a181c4d9b04f0ecf46c60fad05c68', 'Twilio-Request-Duration': '0.036', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 8623b5c13db2419c6cab143e4240ddc0.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'D8PeTwdFORgm4FwkjPxgLVRaOrbLg0fj3uXuFX0IvQBqsfduTepv1g==', 'Vary': 'Origin'}
+2025-05-14 01:36:46,708 - services.twilio_service - ERROR - Twilio API error: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC38945b5900457efddfb08969d865ccc9 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-05-14 01:36:59,697 - main - INFO - Received message from whatsapp:+917754876626: give info about Aditya
+2025-05-14 01:37:01,686 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:37:01,686 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info about Aditya...
+2025-05-14 01:37:03,649 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:37:03,649 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:37:05,726 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:37:07,902 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - Headers:
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:37:07,903 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:37:08,679 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:37:08,681 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '930', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:07:09 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQffc65b6ad27373594a5b76b75f502a92', 'Twilio-Request-Duration': '0.098', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 bf658c6f0f2d06ecca53cc9868d27b02.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'u_hc7jMQvK2WOzu0tLVkkh6g3RIGPD6a_Z-JAWGnfkjIJuRd6abUOg==', 'Vary': 'Origin'}
+2025-05-14 01:37:08,684 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:40:36,816 - main - INFO - Received message from whatsapp:+917754876626: give info about Harshit
+2025-05-14 01:40:38,698 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:40:38,698 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info about Harshit...
+2025-05-14 01:40:40,145 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:40:40,145 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:40:41,473 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:40:42,128 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:40:42,133 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:40:42,133 - twilio.http_client - INFO - Headers:
+2025-05-14 01:40:42,133 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:40:42,133 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:40:42,133 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:40:42,136 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:40:42,136 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:40:42,136 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:40:43,155 - twilio.http_client - INFO - Response Status Code: 201
+2025-05-14 01:40:43,155 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:10:43 GMT', 'X-Powered-By': 'AT-5000', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ107bf02371446129730da29048a6e429', 'Twilio-Request-Duration': '0.120', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 153a29b6f73d1188a3a2c0797369516a.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'NXq8t3atLHt1qtjNlIQTpPwvSpx3UO-MNNEDIGnstCdwJNDQdZmoZg==', 'Vary': 'Origin'}
+2025-05-14 01:40:43,168 - services.twilio_service - INFO - WhatsApp message sent to +917754876626
+2025-05-14 01:45:03,016 - main - INFO - Received message from whatsapp:+917754876626: give info about Harshit
+2025-05-14 01:45:07,007 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:45:07,009 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info about Harshit...
+2025-05-14 01:45:09,233 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:45:09,233 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:45:11,255 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:45:13,347 - services.context_service - ERROR - Error updating session summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-05-14 01:45:13,916 - twilio.http_client - INFO - -- BEGIN Twilio API Request --
+2025-05-14 01:45:13,916 - twilio.http_client - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json
+2025-05-14 01:45:13,917 - twilio.http_client - INFO - Headers:
+2025-05-14 01:45:13,917 - twilio.http_client - INFO - User-Agent : twilio-python/8.10.3 (Windows AMD64) Python/3.12.6
+2025-05-14 01:45:13,917 - twilio.http_client - INFO - X-Twilio-Client : python-8.10.3
+2025-05-14 01:45:13,917 - twilio.http_client - INFO - Accept-Charset : utf-8
+2025-05-14 01:45:13,918 - twilio.http_client - INFO - Content-Type : application/x-www-form-urlencoded
+2025-05-14 01:45:13,918 - twilio.http_client - INFO - Accept : application/json
+2025-05-14 01:45:13,918 - twilio.http_client - INFO - -- END Twilio API Request --
+2025-05-14 01:45:14,539 - twilio.http_client - INFO - Response Status Code: 429
+2025-05-14 01:45:14,539 - twilio.http_client - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Tue, 13 May 2025 20:15:15 GMT', 'X-Powered-By': 'AT-5000', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3dd085b3ded8e05ba92afd0dc1ae821a', 'Twilio-Request-Duration': '0.038', 'X-Home-Region': 'us1', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Shenanigans': 'none', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 82fccbbb63aecdd468ad9737a31e6b2c.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'HFtyuJga1duA8baT-unm1LY6bGxYID2Ay2xjCkFtyoCjW02rxzdUVw==', 'Vary': 'Origin'}
+2025-05-14 01:45:14,539 - services.twilio_service - ERROR - Twilio API error: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC38945b5900457efddfb08969d865ccc9/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC38945b5900457efddfb08969d865ccc9 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-05-14 01:45:27,180 - main - INFO - Received message from whatsapp:+917754876626: give info about Harshit
+2025-05-14 01:45:30,421 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:45:30,421 - services.orchestrator - INFO - Intent determined as employee_manager for message: give info about Harshit...
+2025-05-14 01:45:32,316 - llms.gemini_client - INFO - Gemini API response received for user 2
+2025-05-14 01:45:32,316 - agents.employee_manager - INFO - Employee Manager sub-intent determined as: extract_info
+2025-05-14 01:45:34,531 - llms.gemini_client - INFO - Gemini API response received for user 2

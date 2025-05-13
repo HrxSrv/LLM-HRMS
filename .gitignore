@@ -1,4 +1,3 @@
-logs
-venv
 .env
 __pycache__
+venv
